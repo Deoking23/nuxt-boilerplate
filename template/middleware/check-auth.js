@@ -11,7 +11,7 @@ export default async function (context) {
   if (!accessToken) {
     // 목적 1 이행.
     if (disallowPathToNonMember(context.route.path)) {
-      context.redirect('/member/login')
+      context.redirect('/login')
     }
   } else {
     // access token을 store에 담아야, store.actions 들에서 token을 사용하는 액션들이 store에 저장된 token을 사용 할 수 있다.
@@ -28,7 +28,7 @@ export default async function (context) {
       // 로그인 했던 사람이 웹사이트를 구경하다가, 토큰이 만료되서 /api/v1/me의 응답이 에러일때,
       // 로그인이 필요 없는 페이지로 이동하려고 하면 그냥 이동 시키고, 로그인이 필요한 페이지로 이동하려고 하면 로그인페이지로 이동함.
       if (disallowPathToNonMember(context.route.path)) {
-        context.redirect('/member/login')
+        context.redirect('/login')
       }
     }
   }

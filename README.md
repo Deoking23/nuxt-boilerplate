@@ -1,18 +1,33 @@
-# aart-nuxt-boilerplate
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/904724/22470179/b84f58d8-e7ce-11e6-995b-0933711ca566.png"></p>
 
-> Nuxt project boilerplate for quick start
 
-## Build Setup
+# Aart Nuxt Boilerplate
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+> [ExpressJS](http://expressjs.com/) + [Nuxt.js](https://nuxtjs.org)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Installation
 
-# build for production and launch server
-$ npm start
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+
+```bash
+vue aart-dev/nuxt-boilerplate <project-name>
+cd <project-name> # move to your project
+npm install # or yarn install
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Builtin Library + Example
+
+- [@nuxtjs/axios](https://axios.nuxtjs.org/)
+- [@nuxtjs/google-analytics](https://github.com/nuxt-community/analytics-module)
+- [vue-i18n](http://kazupon.github.io/vue-i18n/)
+- [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
+- [vue-authenticate](https://github.com/dgrubelic/vue-authenticate)
+- [vee-validate](https://baianat.github.io/vee-validate/)
+
+
+
+## Documentation
+
+- [ExpressJS](http://expressjs.com/en/guide/routing.html)
+- [Nuxt.js](https://nuxtjs.org/guide/)
+- [Vue.js](http://vuejs.org/guide/)

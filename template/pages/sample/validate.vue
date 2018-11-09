@@ -66,9 +66,11 @@
           if (result) {
             // success process
             console.debug('success process')
+            return false
           }
           // fail process
           console.debug('fail process')
+          return false
         })
       }
     }

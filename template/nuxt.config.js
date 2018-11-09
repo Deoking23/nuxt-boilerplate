@@ -75,9 +75,9 @@ module.exports = {
    * Global Variables
    * */
   env: {
-    API_SERVER_ADDRESS: 'http://localhost:13000/api',
+    API_SERVER_ADDRESS: 'http://192.168.0.19:8111',
     LANGUAGE_COOKIE_NAME: 'brand-language',
-    ACCESS_TOKEN_NAME: 'nh_access_token'
+    ACCESS_TOKEN_NAME: 'aart_access_token'
   },
   /*
    ** modules(ex. google analytics)
@@ -129,7 +129,6 @@ module.exports = {
     {src: '~/plugins/axios.js'},
     {src: '~/plugins/vee-validate.js'},
     {src: '~/plugins/vue-awesome-swiper.js', ssr: false},
-    /* TODO 플러그일/미들웨어 테스트 */
     {src: '~/plugins/vue-authenticate.js', ssr: false},
     {src: '~/plugins/filters.js'},
     {src: '~/plugins/vue-i18n.js'}

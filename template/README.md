@@ -15,4 +15,13 @@ $ npm run dev
 $ npm start
 ```
 
+## Git CLI
+``` bash
+# git push
+$ git add *
+$ git commit -m "Commit Message"
+$ git push -u origin master
+
+```
+
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
