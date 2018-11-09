@@ -1,0 +1,15 @@
+.list-bar-style() {
+
+    /* List Style */
+    list-style: none;
+    padding-left: 15px;
+    > li {
+        position: relative;
+        &:before {
+            position: absolute;
+            left: -15px;
+            content: '-';
+            display: inline-block;
+        }
+    }
+}

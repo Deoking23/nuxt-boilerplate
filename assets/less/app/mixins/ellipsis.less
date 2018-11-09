@@ -1,0 +1,8 @@
+.ellipsis-line(@line, @max-height) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: @max-height; /* fallback */
+    -webkit-line-clamp: @line; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}

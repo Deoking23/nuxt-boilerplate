@@ -1,0 +1,13 @@
+.animation-duration-second(@second) {
+    @second-classname: (@second * 1000);
+    .duration-@{second-classname} {
+        .animation-duration(e(%("%ds", @second)));
+    }
+}
+
+.animation-duration-loop(@counter) when (@counter > 0) {
+    .animation-duration-loop((@counter - 1));
+    .animation-duration-second(round(0.05 * @counter, 2));
+}
+
+.animation-duration-loop(200);

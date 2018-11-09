@@ -1,0 +1,22 @@
+.fontface(@font-family, @font-weight, @font-file) {
+    @font-face {
+        font-family: @font-family;
+        font-weight: @font-weight;
+
+        src: url("@{font-file}.eot");
+        src: local('※'),
+        url("@{font-file}.woff") format('woff'),
+        url("@{font-file}.ttf") format('truetype');
+    }
+}
+
+.fontface-ttf(@font-family, @font-weight, @font-file) {
+    @font-face {
+        font-family: @font-family;
+        font-weight: @font-weight;
+
+        src: url("@{font-file}.eot");
+        src: local('※'),
+        url("@{font-file}.ttf") format('truetype');
+    }
+}

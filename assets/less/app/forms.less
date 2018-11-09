@@ -1,0 +1,44 @@
+// None Shadow
+.form-control {
+  .box-shadow(none);
+
+  &[readonly],
+  fieldset[disabled] & {
+    background-color: @input-bg;
+  }
+  border-width: 0 0 1px 0;
+  padding: @padding-base-vertical 0;
+
+}
+
+// Input Number Button Hidden
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// Select Box Placeholder
+select {
+  .placeholder {
+    color: @input-color-placeholder;
+  }
+}
+
+// Form Horizontal
+//.form-horizontal {
+//
+//    .radio,
+//    .checkbox,
+//    .radio-inline,
+//    .checkbox-inline {
+//        padding-top: 5px;
+//    }
+//
+//    .control-label {
+//        text-align: left;
+//        font-weight: normal;
+//        font-size: 14px;
+//        color: #000000;
+//    }
+//}

@@ -1,0 +1,18 @@
+.thumbnail-play-btn-size(@compute-size, @font-size) {
+    width: @compute-size;
+    height: @compute-size;
+    line-height: @compute-size;
+    font-size: @font-size;
+    margin-top: -@compute-size/2;
+}
+
+.thumbnail-user-thumb(@compute-size, @font-size) {
+    > .user-thumb {
+        width: @compute-size;
+        height: @compute-size;
+    }
+    > .user-name {
+        line-height: @compute-size;
+        font-size: @font-size;
+    }
+}

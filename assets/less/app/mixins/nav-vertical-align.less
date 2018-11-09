@@ -1,0 +1,20 @@
+// Navbar vertical align
+//
+// Vertically center elements in the navbar.
+// Example: an element has a height of 30px, so write out `.navbar-vertical-align(30px);` to calculate the appropriate top margin.
+
+.navbar-vertical-align-mobile(@element-height) {
+  margin-top: ((@navbar-height - @element-height) / 2);
+  margin-bottom: ((@navbar-height - @element-height) / 2);
+
+  @media (max-width: @grid-float-breakpoint-max) {
+    margin-top: ((@navbar-height-m - @element-height) / 2);
+    margin-bottom: ((@navbar-height-m - @element-height) / 2);
+  }
+  @media (min-width: @grid-float-breakpoint) {
+    .scrolled & {
+      margin-top: ((@navbar-scrolled-height - @element-height) / 2);
+      margin-bottom: ((@navbar-scrolled-height - @element-height) / 2);
+    }
+  }
+}

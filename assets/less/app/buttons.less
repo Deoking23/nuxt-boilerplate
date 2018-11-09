@@ -1,0 +1,328 @@
+//
+// Buttons
+// --------------------------------------------------
+
+// Base styles
+// --------------------------------------------------
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0; // For input.btn
+    //font-weight: @btn-font-weight;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    border: 2px solid transparent;
+    white-space: nowrap;
+    .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-computed; @btn-border-radius-base);
+    .user-select(none);
+
+    // Custom Style
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    i {
+        display: inline-block;
+        transition: transform 0.3s @transition-timing-function;
+        transform: translateX(0);
+    }
+    &:hover {
+        i.move-r {
+            transform: translateX(10px);
+        }
+        i.move-l {
+            transform: translateX(-10px);
+        }
+    }
+
+    &,
+    &:active,
+    &.active {
+        &:focus,
+        &.focus {
+            .tab-focus();
+        }
+    }
+
+    &:hover,
+    &:focus,
+    &.focus {
+        color: @btn-default-color;
+        text-decoration: none;
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        background-image: none;
+        .box-shadow(inset 0 3px 5px rgba(0, 0, 0, .125));
+    }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: @cursor-disabled;
+        .opacity(.65);
+        .box-shadow(none);
+    }
+
+    a& {
+        &.disabled,
+        fieldset[disabled] & {
+            pointer-events: none; // Future-proof disabling of clicks on `<a>` elements
+        }
+    }
+}
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-default {
+    .button-softlight-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+}
+
+.btn-inverse {
+    .button-softlight-variant(@btn-inverse-color; @btn-inverse-bg; @btn-inverse-border);
+}
+
+.btn-primary {
+    .button-softlight-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+.btn-secondary {
+    .button-softlight-variant(@btn-secondary-color; @btn-secondary-bg; @btn-secondary-border);
+}
+// Success appears as green
+.btn-success {
+    .button-softlight-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
+}
+
+// Info appears as blue-green
+.btn-info {
+    .button-softlight-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
+}
+
+// Warning appears as orange
+.btn-warning {
+    .button-softlight-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
+}
+
+// Danger and error appear as red
+.btn-danger {
+    .button-softlight-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+    color: @link-color;
+    font-weight: normal;
+    border-radius: 0;
+
+    &,
+    &:active,
+    &.active,
+    &[disabled],
+    fieldset[disabled] & {
+        background-color: transparent;
+        .box-shadow(none);
+    }
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: transparent;
+    }
+    &:hover,
+    &:focus {
+        color: @link-hover-color;
+        text-decoration: @link-hover-decoration;
+        background-color: transparent;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+        &:hover,
+        &:focus {
+            color: @btn-link-disabled-color;
+            text-decoration: none;
+        }
+    }
+}
+
+// Button Sizes
+// --------------------------------------------------
+
+.btn-lg {
+    // line-height: ensure even-numbered height of button next to large input
+    .button-size(@padding-large-vertical; @padding-large-horizontal; 14px; @line-height-large; @btn-border-radius-large);
+
+    //@media (min-width: @screen-sm-min) {
+    //    padding-top: @padding-large-vertical;
+    //    padding-bottom: @padding-large-vertical;
+    //}
+}
+
+.btn-sm {
+    // line-height: ensure proper height of button next to small input
+    .button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @btn-border-radius-small);
+}
+
+.btn-xs {
+    .button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @btn-border-radius-small);
+}
+
+// Block button
+// --------------------------------------------------
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+// Vertically space out multiple block buttons
+.btn-block + .btn-block {
+    margin-top: 5px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    &.btn-block {
+        width: 100%;
+    }
+}
+
+// Ghost Button
+.btn-ghost-default {
+    .btn-ghost(@btn-ghost-default-color);
+}
+
+.btn-ghost-inverse {
+    .btn-ghost(@btn-ghost-inverse-color);
+}
+
+.btn-ghost-primary {
+    .btn-ghost(@brand-primary);
+}
+
+.btn-ghost-secondary {
+    .btn-ghost(@brand-secondary);
+}
+
+.btn-ghost-success {
+    .btn-ghost(@brand-success);
+}
+
+.btn-ghost-info {
+    .btn-ghost(@brand-info);
+}
+
+.btn-ghost-warning {
+    .btn-ghost(@brand-warning);
+}
+
+.btn-ghost-danger {
+    .btn-ghost(@brand-danger);
+}
+
+// Outline Button
+.btn-outline-default {
+    .button-outline-variant(@btn-ghost-default-color);
+}
+
+.btn-outline-inverse {
+    .button-outline-variant(@btn-ghost-inverse-color);
+}
+
+.btn-outline-primary {
+    .button-outline-variant(@brand-primary);
+}
+
+.btn-outline-secondary {
+    .button-outline-variant(@brand-secondary);
+}
+
+.btn-outline-success {
+    .button-outline-variant(@brand-success);
+}
+
+.btn-outline-info {
+    .button-outline-variant(@brand-info);
+}
+
+.btn-outline-warning {
+    .button-outline-variant(@brand-warning);
+}
+
+.btn-outline-danger {
+    .button-outline-variant(@brand-danger);
+}
+
+.btn-arrow {
+    position: relative;
+    padding-right: 50px;
+    &:after {
+        font-family: "icon-shop";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+
+        display: inline-block;
+        text-decoration: inherit;
+        width: 1em;
+        margin-right: .2em;
+        text-align: center;
+        /* opacity: .8; */
+
+        /* For safety - reset parent styles, that can break glyph codes*/
+        font-variant: normal;
+        text-transform: none;
+
+        /* fix buttons height, for twitter bootstrap */
+        line-height: 1em;
+
+        /* Animation center compensation - margins should be symmetric */
+        /* remove if not needed */
+
+
+        /* you can be more comfortable with increased icons size */
+        /* font-size: 120%; */
+
+        /* Font smoothing. That was taken from TWBS */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+
+        /* Uncomment for 3D effect */
+        /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+        content: '\e805';
+        .transition(~'all 200ms ease-out');
+
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -7px;
+    }
+
+    &:hover, &:focus {
+        &:after {
+            right: 10px;
+        }
+    }
+
+    &.btn-sm {
+        padding-right: 30px;
+        &:after {
+            right: 10px;
+            margin-top: -6px;
+        }
+        &:hover, &:focus {
+            &:after {
+                right: 5px;
+            }
+        }
+    }
+}

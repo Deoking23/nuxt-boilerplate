@@ -1,0 +1,18 @@
+body {
+    overflow: hidden;
+
+    #page-preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: @zindex-modal + 10;
+        overflow: hidden;
+        cursor: wait;
+
+        .page-preload-icon {
+            font-size: 1.5em;
+        }
+    }
+}

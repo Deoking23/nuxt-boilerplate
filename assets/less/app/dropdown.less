@@ -1,0 +1,97 @@
+.caret-double {
+    position: relative;
+    line-height: @line-height-computed;
+    height: 15px;
+    width: 12px;
+    vertical-align: middle;
+    display: inline-block;
+
+    &:after,
+    &:before {
+        position: absolute;
+        display: inline-block;
+        content: "";
+        width: 0;
+        height: 0;
+        left:0;
+        margin-left: 2px;
+        vertical-align: middle;
+    }
+    &:before {
+        border-top: @caret-width-base dashed;
+        border-top: @caret-width-base solid ~"\9"; // IE8
+        border-right: @caret-width-base solid transparent;
+        border-left: @caret-width-base solid transparent;
+        bottom: 1.5px;
+    }
+    &:after {
+        border-bottom: @caret-width-base dashed;
+        border-bottom: @caret-width-base solid ~"\9"; // IE8
+        border-right: @caret-width-base solid transparent;
+        border-left: @caret-width-base solid transparent;
+        top: 1.5px;
+    }
+
+}
+
+
+// Inverse Dropdown
+.dropdown-inverse{
+    .caret-double{
+        &:before {
+            border-top-color: @dropdown-inverse-caret-color;
+        }
+        &:after {
+            border-bottom-color: @dropdown-inverse-caret-color;
+        }
+    }
+
+    .dropdown-menu{
+        background-color: @dropdown-inverse-bg;
+        border: 1px solid @dropdown-inverse-fallback-border; // IE8 fallback
+        border: 1px solid @dropdown-inverse-border;
+
+        .divider {
+            .nav-divider(@dropdown-inverse-divider-bg);
+        }
+
+        > li > a {
+            color: @dropdown-inverse-link-color;
+        }
+    }
+
+    // Hover/Focus state
+    .dropdown-menu > li > a {
+        &:hover,
+        &:focus {
+            color: @dropdown-inverse-link-hover-color;
+            background-color: @dropdown-inverse-link-hover-bg;
+        }
+    }
+
+    // Active state
+    .dropdown-menu > .active > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @dropdown-inverse-link-active-color;
+            background-color: @dropdown-inverse-link-active-bg;
+        }
+    }
+
+    // Disabled state
+    //
+    // Gray out text and ensure the hover/focus state remains gray
+
+    .dropdown-menu > .disabled > a {
+        &,
+        &:hover,
+        &:focus {
+            color: @dropdown-inverse-link-disabled-color;
+        }
+    }
+    // Dropdown section headers
+    .dropdown-header {
+        color: @dropdown-inverse-header-color;
+    }
+}

@@ -1,0 +1,152 @@
+.btn-round(@border-radius) {
+    .btn {
+        border-radius: @border-radius;
+    }
+}
+
+.btn-ghost(@color) {
+    .transition(all 0.3s ease 0s);
+
+    color: @color;
+    background-color: @btn-ghost-bg;
+    border-color: @color;
+
+    &:focus,
+    &.focus {
+        color: @color;
+        .background-opacity(@color, 0.50);
+        border-color: @color;
+    }
+    &:hover {
+        color: @color;
+        .background-opacity(@color, 0.30);
+        border-color: @color;
+    }
+    &:active,
+    &.active {
+        color: @color;
+        .background-opacity(@color, 0.50);
+        border-color: @color, 12%;
+        box-shadow: none;
+    }
+    &:active,
+    &.active {
+        background-image: none;
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &,
+        &:hover,
+        &:focus,
+        &.focus,
+        &:active,
+        &.active {
+            background-color: @btn-ghost-bg;
+            border-color: @color;
+        }
+    }
+
+    .badge {
+        color: @btn-ghost-bg;
+        background-color: @color;
+    }
+}
+
+// square button size
+
+.button-softlight-variant(@color; @background; @border) {
+    color: @color;
+    background-color: @background;
+    border-color: @border;
+
+    &:focus,
+    &.focus {
+        color: @color;
+        background-color: softlight(@background, #333333);
+        border-color: softlight(@border, #303030);
+    }
+    &:hover {
+        color: @color;
+        background-color: softlight(@background, #666666);
+        border-color: softlight(@border, #303030);
+    }
+    &:active,
+    &.active,
+    .open > .dropdown-toggle& {
+        color: @color;
+        background-color: softlight(@background, #666666);
+        border-color: softlight(@border, #303030);
+
+        &:hover,
+        &:focus,
+        &.focus {
+            color: @color;
+            background-color: softlight(@background, #333333);
+            border-color: softlight(@border, #404040);
+        }
+    }
+    &:active,
+    &.active,
+    .open > .dropdown-toggle& {
+        background-image: none;
+    }
+    //&.disabled,
+    //&[disabled],
+    //fieldset[disabled] & {
+    //    &:hover,
+    //    &:focus,
+    //    &.focus {
+    //        background-color: @background;
+    //        border-color: @border;
+    //    }
+    //}
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        background-color: #ececec;
+        border-color: #ececec;
+        color: #ababab;
+    }
+
+    .badge {
+        color: @background;
+        background-color: @color;
+    }
+}
+
+.button-outline-variant (@background) {
+    .transition(all 0.3s ease 0s);
+
+    color: darken(@background, 10%);
+    background-color: transparent;
+    border-color: darken(@background, 10%);
+
+    &:focus,
+    &.focus {
+        color: #fff;
+        background-color: softlight(@background, #333333);
+        border-color: softlight(@background, #303030);
+    }
+    &:hover {
+        color: #fff;
+        background-color: softlight(@background, #666666);
+        border-color: softlight(@background, #303030);
+    }
+    &:active,
+    &.active,
+    .open > .dropdown-toggle& {
+        color: #fff;
+        background-color: softlight(@background, #666666);
+        border-color: softlight(@background, #303030);
+
+        &:hover,
+        &:focus,
+        &.focus {
+            color: #fff;
+            background-color: softlight(@background, #444444);
+            border-color: softlight(@background, #404040);
+        }
+    }
+}

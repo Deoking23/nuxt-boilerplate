@@ -1,0 +1,92 @@
+.display-table {
+    display: table;
+
+    .display-table-cell {
+        float: none;
+        display: table-cell;
+    }
+
+    .vertical-middle {
+        vertical-align: middle;
+    }
+
+    .vertical-top {
+        vertical-align: top;
+    }
+
+    .vertical-bottom {
+        vertical-align: bottom;
+    }
+
+    // Mobile
+    [class*="col-xs"] {
+        display: table-cell;
+    }
+    [class*="col-sm"] {
+        display: block;
+    }
+    [class*="col-md"] {
+        display: block;
+    }
+    [class*="col-lg"] {
+        display: block;
+    }
+    // Tablet
+    @media (min-width: @screen-sm-min) {
+        [class*="col-xs"] {
+            display: table-cell;
+        }
+
+        [class*="col-sm"] {
+            display: table-cell;
+        }
+
+        [class*="col-md"] {
+            display: block;
+        }
+
+        [class*="col-lg"] {
+            display: block;
+        }
+    }
+    // Small Desktop
+    @media (min-width: @screen-md-min) {
+        [class*="col-xs"] {
+            display: table-cell;
+        }
+
+        [class*="col-sm"] {
+            display: table-cell;
+        }
+
+        [class*="col-md"] {
+            display: table-cell;
+        }
+
+        [class*="col-lg"] {
+            display: block;
+        }
+    }
+    // Large Desktop
+    @media (min-width: @screen-lg-min) {
+        [class*="col-xs"] {
+            display: table-cell;
+        }
+
+        [class*="col-sm"] {
+            display: table-cell;
+        }
+
+        [class*="col-md"] {
+            display: table-cell;
+        }
+
+        [class*="col-lg"] {
+            display: table-cell;
+        }
+    }
+}
+
+.display-inline-block {
+    display: inline-block;
+}

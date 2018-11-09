@@ -1,0 +1,126 @@
+// 기본 섹션 백그라운드 정의는 egg-template 클래스에 해야한다.
+.bg-default {
+    background-color: @body-bg;
+}
+
+.bg-inverse {
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: @in-inverse-bg-headings-color;
+    }
+    &, p, small, span, a:not(.btn), a, li {
+        color: @in-inverse-bg-text-color;
+    }
+    a:not(.btn) {
+        &:hover, &:hover {
+            color: @in-inverse-bg-text-color-hover;
+        }
+        &:active {
+            color: @in-inverse-bg-text-color-active;
+        }
+    }
+    background-color: @inverse-bg;
+}
+
+.bg-primary {
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: @in-primary-bg-headings-color;
+    }
+    &, p, small, span, a:not(.btn), a, li {
+        color: @in-primary-bg-text-color;
+    }
+    a:not(.btn) {
+        &:hover, &:hover {
+            color: @in-primary-bg-text-color-hover;
+        }
+        &:active {
+            color: @in-primary-bg-text-color-active;
+        }
+    }
+    background-color: @primary-bg;
+}
+
+.bg-secondary {
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        color: @in-secondary-bg-headings-color;
+    }
+    &, p, small, span, a:not(.btn), a, li {
+        color: @in-secondary-bg-text-color;
+    }
+    a:not(.btn) {
+        &:hover, &:hover {
+            color: @in-secondary-bg-text-color-hover;
+        }
+        &:active {
+            color: @in-secondary-bg-text-color-active;
+        }
+    }
+    background-color: @secondary-bg;
+}
+
+.bg-cover {
+    background-position: @bg-cover-position;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    //behavior: data-uri('assets/polyfill/backgroundsize.min.htc');
+}
+
+.bg-img{
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-gray-base {
+    background-color: @gray-base;
+}
+
+.bg-gray-darker {
+    background-color: @gray-darker;
+}
+
+.bg-gray-dark {
+    background-color: @gray-dark;
+}
+
+.bg-gray {
+    background-color: @gray;
+}
+
+.bg-gray-light {
+    background-color: @gray-light;
+}
+
+.bg-gray-lighter {
+    background-color: @gray-lighter;
+}
+
+.bg-panels {
+    background-color: #f7f7f7;
+}
+
+.bg-success-origin {
+  background-color: @brand-success;
+}
+
+.bg-info-origin {
+  background-color: @brand-info;
+}
+
+.bg-warning-origin {
+  background-color: @brand-warning;
+}
+
+.bg-danger-origin {
+  background-color: @brand-danger;
+}
+
+
+

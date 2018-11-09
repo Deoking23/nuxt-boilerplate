@@ -1,0 +1,168 @@
+#footer {
+    position: relative;
+    color: #666;
+    background: #151515;
+    font-family: @font-family-sans-serif, 'Malgun Gothic', Dotum, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+
+    @media (min-width: @grid-float-breakpoint) {
+        text-align: left;
+
+        .left-body{
+            padding-left: 35px;
+        }
+    }
+
+    .footer-bg {
+        .clearfix();
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        .left-bg,
+        .right-bg {
+            float: left;
+            display: none;
+            height: 100%;
+        }
+        .left-bg {
+            background: #000;
+        }
+        .right-bg {
+            background: #151515;
+        }
+        @media (min-width: @grid-float-breakpoint) {
+            .left-bg,
+            .right-bg {
+                display: block;
+                width: 50%;
+            }
+        }
+    }
+    .logo {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    .info {
+        a {
+            color: #666;
+            text-decoration: none;
+            &:hover {
+                color: #e4e4e4;
+                text-decoration: none;
+            }
+        }
+    }
+    .copy {
+        margin-bottom: 15px;
+    }
+    .title {
+        font-size: 14px;
+        line-height: 1.57;
+        color: #ffffff;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    // .sns {
+    //     .clearfix();
+    //     .list-unstyled();
+    //     display: inline-block;
+
+    //     > li {
+    //         float: left;
+    //         > a {
+    //             display: inline-block;
+    //             border: 1px solid #555;
+    //             font-size: 20px;
+    //             color: #555;
+    //             width: 30px;
+    //             height: 30px;
+    //             line-height: 30px;
+
+    //             &:hover {
+    //                 color: #e4e4e4;
+    //                 border-color: #e4e4e4;
+    //                 text-decoration: none;
+    //             }
+    //         }
+
+    //         & + li {
+    //             margin-left: 10px;
+    //         }
+    //     }
+    // }
+    .sns-area {
+        padding-top: 20px;
+
+        @media(max-width: @screen-sm) {
+            width: 290px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        > ul > li {
+            line-height: 40px;
+            .clearfix();
+
+            .site-logo {
+                // display: inline-block;
+                float: left;
+                width: 56px;
+                text-align: center;
+                margin-right: 20px;
+            }
+
+            .sns-list {
+                // display: inline-block;
+                float: left;
+                position: relative;
+                padding-left: 20px;
+            
+                &:before {
+                    content : "";
+                    position: absolute;
+                    left    : 0;
+                    bottom  : 25%;
+                    width  : 1px;
+                    height   : 50%;
+                    border-left: 1px solid #555;
+                }
+
+                > ul > li {
+                    // display: inline-block;
+                    .clearfix();
+                    float: left;
+                    padding-right: 10px;
+
+                    i {
+                        color: #555;
+                        font-size: 20px;
+                        vertical-align: middle;
+                        .transition-all-ease-in-out(.3s);
+
+                        &:hover {
+                            color: #fff;
+                            .transition-all-ease-in-out(.3s);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dropup {
+        display: inline-block;
+        .dropdown-toggle {
+            outline: 0;
+            text-align: left;
+            min-width: 180px;
+        }
+        .dropdown-menu {
+            width: 100%;
+        }
+    }
+}

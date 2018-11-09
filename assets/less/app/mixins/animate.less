@@ -1,0 +1,23 @@
+// Transformations
+.scale3d(@x; @y; @z) {
+    -webkit-transform: scale3d(@x, @y, @z);
+    -ms-transform: scale3d(@x, @y, @z); // IE9 only
+    -o-transform: scale3d(@x, @y, @z);
+    transform: scale3d(@x, @y, @z);
+}
+
+// Transitions
+
+.transition-opacity-transform(@transition) {
+    -webkit-transition: opacity @transition, -webkit-transform @transition;
+    -moz-transition: opacity @transition, -moz-transform @transition;
+    -o-transition: opacity @transition, -o-transform @transition;
+    transition: opacity @transition, transform @transition;
+}
+
+.transition-all-ease-in-out(@transition) {
+    -webkit-transition: all @transition ease-in-out;
+    -moz-transition: all @transition ease-in-out;
+    -o-transition: all @transition ease-in-out;
+    transition: all @transition ease-in-out;
+}

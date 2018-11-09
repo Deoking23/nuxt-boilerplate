@@ -1,0 +1,23 @@
+.help {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+
+  &.is-danger {
+    color: @brand-danger;
+  }
+  &.is-success {
+    color: @brand-success;
+  }
+}
+
+input, textarea {
+  &.is-danger {
+    border-width: 2px;
+    border-color: @brand-danger !important;
+  }
+  &.is-success {
+    border-width: 2px;
+    border-color: @brand-success;
+  }
+}

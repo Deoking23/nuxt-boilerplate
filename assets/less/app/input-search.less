@@ -1,0 +1,33 @@
+@input-search-btn-color: #ccc;
+
+.input-search {
+    display: inline-block;
+    width: 100%;
+    .form-control{
+        display: inline-block;
+    }
+    .input-group-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: auto;
+        z-index: 3;
+        button, a{
+            padding: 0 6px;
+            color: @input-search-btn-color;
+            font-size: 22px;
+            height: inherit;
+            border: none;
+            background: transparent;
+            outline: none;
+            &:hover, &:focus, &:active{
+                color: @brand-primary;
+                outline: none;
+                border: none;
+                background: transparent;
+                .box-shadow(none);
+            }
+        }
+    }
+}

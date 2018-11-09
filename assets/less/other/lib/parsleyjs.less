@@ -1,0 +1,38 @@
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: @state-success-text;
+    //background-color: #DFF0D8;
+    border: 1px solid @state-success-text;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: @state-danger-text;
+    //background-color: #F2DEDE;
+    border: 1px solid @state-danger-text;
+}
+
+.parsley-errors-list {
+    margin: 4px 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    opacity: 0;
+
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+
+    > li {
+        color: @state-danger-text;
+        line-height: @line-height-computed;
+    }
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+}

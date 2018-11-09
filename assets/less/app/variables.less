@@ -1,0 +1,267 @@
+// PATH
+@default-resource-path : '/fonts';
+@default-font-path: ~"@{default-resource-path}";
+
+// FONT
+// 윤 고딕
+@font-family-yoongothic: 'Yoon Gothic';
+
+@font-family-yoongothic-900: "@{default-font-path}/YoonGothicPro790";
+@font-family-yoongothic-800: "@{default-font-path}/YoonGothicPro780";
+@font-family-yoongothic-700: "@{default-font-path}/YoonGothicPro770";
+@font-family-yoongothic-600: "@{default-font-path}/YoonGothicPro760";
+@font-family-yoongothic-500: "@{default-font-path}/YoonGothicPro750";
+@font-family-yoongothic-400: "@{default-font-path}/YoonGothicPro740";
+@font-family-yoongothic-300: "@{default-font-path}/YoonGothicPro730";
+@font-family-yoongothic-200: "@{default-font-path}/YoonGothicPro720";
+@font-family-yoongothic-100: "@{default-font-path}/YoonGothicPro710";
+
+// Transition Timing Function
+@transition-timing-function: ease; // default
+@transition-timing-function-2: ease;
+@transition-timing-function-3: cubic-bezier(.77,0,.18,1);
+
+// ==== Color ====
+@brand-secondary: #333;
+
+// Text Color
+// Default Bg color : 기본 정의되어있음
+// Inverse Bg color
+@inverse-bg: @gray-darker;
+@in-inverse-bg-text-color: #EEEEEE;
+@in-inverse-bg-headings-color: #EEEEEE;
+@in-inverse-bg-text-color-hover: lighten(@gray-darker, 5%);
+@in-inverse-bg-text-color-active: lighten(@gray-darker, 7%);
+
+// Primary Bg color
+@primary-bg: @brand-primary;
+@in-primary-bg-text-color: #EEEEEE;
+@in-primary-bg-headings-color: #EEEEEE;
+@in-primary-bg-text-color-hover: darken(#ffffff, 5%);
+@in-primary-bg-text-color-active: darken(#ffffff, 7%);
+
+// Secondary Bg color
+@secondary-bg: @brand-secondary;//lighten(@brand-secondary, 30%);
+@in-secondary-bg-text-color: #EEEEEE;
+@in-secondary-bg-headings-color: #EEEEEE;
+@in-secondary-bg-text-color-hover: darken(#ffffff, 5%);
+@in-secondary-bg-text-color-active: darken(#ffffff, 7%);
+
+// SNS Color
+@color-twitter: #55acee;
+@color-facebook: #4267B2;
+@color-google-plus: #d34836;
+@color-youtube: #cd201f;
+@color-linkedin: #0077b5;
+
+// ==== Color:END ====
+
+// ==== Space ====
+@mobile-ratio: 0.5;
+@tablet-ratio: 0.7;
+
+@mobile-5: ceil((5px * @mobile-ratio));
+@mobile-10: ceil((10px * @mobile-ratio));
+@mobile-15: ceil((15px * @mobile-ratio));
+@mobile-20: ceil((20px * @mobile-ratio));
+@mobile-25: ceil((25px * @mobile-ratio));
+@mobile-30: ceil((30px * @mobile-ratio));
+@mobile-35: ceil((35px * @mobile-ratio));
+@mobile-40: ceil((40px * @mobile-ratio));
+@mobile-45: ceil((45px * @mobile-ratio));
+@mobile-50: ceil((50px * @mobile-ratio));
+@mobile-55: ceil((55px * @mobile-ratio));
+@mobile-60: ceil((60px * @mobile-ratio));
+@mobile-70: floor((70px * @mobile-ratio));
+@mobile-80: floor((80px * @mobile-ratio));
+@mobile-90: floor((90px * @mobile-ratio));
+@mobile-100: floor((100px * @mobile-ratio));
+@mobile-110: floor((110px * @mobile-ratio));
+@mobile-120: floor((120px * @mobile-ratio));
+@mobile-130: floor((130px * @mobile-ratio));
+@mobile-140: floor((140px * @mobile-ratio));
+@mobile-150: floor((150px * @mobile-ratio));
+
+@tablet-5: ceil((5px * @tablet-ratio));
+@tablet-10: ceil((10px * @tablet-ratio));
+@tablet-15: ceil((15px * @tablet-ratio));
+@tablet-20: ceil((20px * @tablet-ratio));
+@tablet-25: ceil((25px * @tablet-ratio));
+@tablet-30: ceil((30px * @tablet-ratio));
+@tablet-35: ceil((35px * @tablet-ratio));
+@tablet-40: ceil((40px * @tablet-ratio));
+@tablet-45: ceil((45px * @tablet-ratio));
+@tablet-50: ceil((50px * @tablet-ratio));
+@tablet-55: ceil((55px * @tablet-ratio));
+@tablet-60: ceil((60px * @tablet-ratio));
+@tablet-70: floor((70px * @tablet-ratio));
+@tablet-80: floor((80px * @tablet-ratio));
+@tablet-90: floor((90px * @tablet-ratio));
+@tablet-100: floor((100px * @tablet-ratio));
+@tablet-110: floor((110px * @tablet-ratio));
+@tablet-120: floor((120px * @tablet-ratio));
+@tablet-130: floor((130px * @tablet-ratio));
+@tablet-140: floor((140px * @tablet-ratio));
+@tablet-150: floor((150px * @tablet-ratio));
+
+// Desktop
+@space-xl : 100px;
+@space-lg : 80px;
+@space-md : 60px;
+@space-sm : 40px;
+@space-xs : 20px;
+
+// Vertical
+// Tablet
+@space-xl-tablet : @tablet-150;
+@space-lg-tablet : @tablet-120;
+@space-md-tablet : @tablet-90;
+@space-sm-tablet : @tablet-60;
+@space-xs-tablet : @tablet-30;
+
+// Mobile
+@space-xl-mobile : @mobile-150;
+@space-lg-mobile : @mobile-120;
+@space-md-mobile : @mobile-90;
+@space-sm-mobile : @mobile-60;
+@space-xs-mobile : @mobile-30;
+
+// Horizontal
+// Desktop
+@space-horizontal-xl : 90px;
+@space-horizontal-lg : 80px;
+@space-horizontal-md : 70px;
+@space-horizontal-sm : 45px;
+@space-horizontal-xs : 30px;
+
+// Tablet
+@space-horizontal-xl-tablet : @tablet-90;
+@space-horizontal-lg-tablet : @tablet-80;
+@space-horizontal-md-tablet : @tablet-70;
+@space-horizontal-sm-tablet : @tablet-45;
+@space-horizontal-xs-tablet : @tablet-30;
+
+// Mobile
+@space-horizontal-xl-mobile : @mobile-90;
+@space-horizontal-lg-mobile : @mobile-80;
+@space-horizontal-md-mobile : @mobile-70;
+@space-horizontal-sm-mobile : @mobile-45;
+@space-horizontal-xs-mobile : @mobile-30;
+// ==== Space:END ====
+
+// Background
+@bg-cover-position: center;
+
+// Block bottom (padding)
+@block-bottom: @space-xs;
+
+// Border
+@border-color-default: #e4e4e4;
+@border-color-inverse: #1e1e1e;
+@border-color-primary: darken(@brand-primary, 5%);
+@border-color-secondary: darken(@brand-secondary, 5%);
+
+// Btn, Input Border Radius
+@border-radius-1 : 0;
+@border-radius-2 : 4px;
+@border-radius-3 : 8px;
+@border-radius-4 : 12px;
+@border-radius-5 : 16px;
+@border-radius-6 : 20px;
+
+//Btn, Secondary button
+@btn-secondary-color: #fff;
+@btn-secondary-bg: @brand-secondary;
+@btn-secondary-border: darken(@btn-secondary-bg, 5%);
+
+//Btn, Inverse button
+@btn-inverse-color: #e4e4e4;
+@btn-inverse-bg: @inverse-bg;
+@btn-inverse-border: @inverse-bg;
+
+// Ghost button
+@btn-ghost-default-color: #fff;
+@btn-ghost-inverse-color: lighten(#000, 10%);
+@btn-ghost-bg: transparent;
+
+// Height
+// Desktop
+@height-xl: 700px;
+@height-lg: 600px;
+@height-md: 480px; //500px;
+@height-sm: 350px;
+@height-xs: 200px;
+
+// Tablet
+@height-xl-tablet: floor((@height-xl * @tablet-ratio));
+@height-lg-tablet: floor((@height-lg * @tablet-ratio));
+@height-md-tablet: floor((@height-md * @tablet-ratio));
+@height-sm-tablet: floor((@height-sm * @tablet-ratio));
+@height-xs-tablet: floor((@height-xs * @tablet-ratio));
+
+// Mobile
+@height-xl-mobile: floor((@height-xl * @mobile-ratio));
+@height-lg-mobile: floor((@height-lg * @mobile-ratio));
+@height-md-mobile: floor((@height-md * @mobile-ratio));
+@height-sm-mobile: floor((@height-sm * @mobile-ratio));
+@height-xs-mobile: floor((@height-xs * @mobile-ratio));
+
+// Panel
+@panel-body-padding-md : 15px 15px;
+
+// Input Status
+@input-status-size:                            24px;
+@input-status-border-radius:                   0;
+@input-status-bg:                              transparent;
+
+@input-status-checkbox-bg:                     @input-status-bg;
+@input-status-checkbox-border:                 #fff;
+@input-status-checkbox-color:                  #fff;
+@input-status-checkbox-active-bg:              rgba(255, 255, 255, 0.2);
+@input-status-checkbox-active-border:          #fff;
+
+@input-status-radio-bg:                        @input-status-bg;
+@input-status-radio-border:                    #fff;
+@input-status-radio-color:                     #fff;
+@input-status-radio-active-bg:                 @input-status-bg;
+@input-status-radio-active-border:             #fff;
+
+@input-status-bg-disabled:                     darken(@input-status-bg, 10%);
+
+// Navbar
+@navbar-height-m: 60px;
+@navbar-scrolled-height: 60px;
+
+// Grid - Isotope Masonry
+// /assets/js/app/grid-items.js var var $masonry-gutter 이 변수도 같이 수정해야 한다.
+@grid-item-gutter: 15px;
+@grid-item-gutter-large: 30px;
+@grid-item-card-inner: 15px;
+@grid-item-irregular-inner: 15px;
+@grid-item-hover-second: 0.35s;
+
+// Dropdown Inverse
+@dropdown-inverse-bg:                    #2d2924;
+@dropdown-inverse-border:                #2d2924;
+@dropdown-inverse-fallback-border:       #2d2924;
+@dropdown-inverse-divider-bg:            #e5e5e5;
+@dropdown-inverse-link-color:            #e4e4e4;
+@dropdown-inverse-link-hover-color:      #e4e4e4;
+@dropdown-inverse-link-hover-bg:         #333;
+@dropdown-inverse-link-active-color:     @dropdown-inverse-link-hover-color;
+@dropdown-inverse-link-active-bg:        @dropdown-inverse-link-hover-bg;
+@dropdown-inverse-link-disabled-color:   @gray-light;
+@dropdown-inverse-header-color:          @gray-light;
+@dropdown-inverse-caret-color:           #555;
+
+/* Screen*/
+@screen-fhd: 1920px;
+@screen-qhd: 2650px;
+@screen-fhd-min: @screen-fhd + 1px;
+@screen-qhd-min: @screen-qhd + 1px;
+@screen-fhd-max: @screen-fhd;
+@screen-qhd-max: @screen-qhd;
+
+/* Work Size */
+@work-circle-size-sm: 800px;
+@work-circle-size: 1000px;

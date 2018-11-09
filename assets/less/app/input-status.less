@@ -1,0 +1,123 @@
+/* Custom Checkbox & Radio*/
+.inputStatus {
+  position: absolute;
+  display: inline-block;
+  width: @input-status-size;
+  height: @input-status-size;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+
+  input[type='checkbox']:checked ~ & {
+    background: @input-status-checkbox-active-bg;
+    border-color: @input-status-checkbox-active-border;
+
+
+  }
+  input[type='radio']:checked ~ & {
+    background: @input-status-radio-active-bg;
+    border-color: @input-status-radio-active-border;
+  }
+  input[type='checkbox']:disabled ~ &,
+  input[type='radio']:disabled ~ & {
+    background: @input-status-bg-disabled;
+    border-color: darken(@input-status-bg-disabled, 10%);
+    cursor: not-allowed;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    //display: none;
+    input:checked ~ & {
+      //display: block;
+    }
+    .checkbox input:disabled ~ &,
+    .checkbox-inline input:disabled ~ & {
+      border-color: darken(@input-status-bg-disabled, 15%);
+      background-color: transparent;
+    }
+
+    .radio input:disabled ~ &,
+    .radio-inline input:disabled ~ & {
+      background: darken(@input-status-bg-disabled, 15%);
+    }
+  }
+}
+
+// Animation
+.inputStatus{
+  &:after{
+    transition: all 0.15s ease;
+
+    input[type='radio'] ~ &{
+      transform: scale(0);
+    }
+    input[type='radio']:checked ~ & {
+      transform: scale(1);
+    }
+    input[type='checkbox'] ~ &{
+      transform: scale(0) rotate(45deg);
+    }
+    input[type='checkbox']:checked ~ & {
+      transform: scale(1) rotate(45deg);
+    }
+  }
+}
+
+.radio,
+.radio-inline,
+.checkbox,
+.checkbox-inline {
+  position: relative;
+  label {
+    position: relative;
+    padding-left: 23px !important;
+    cursor: pointer;
+    margin-top: 0;
+  }
+  input[type='checkbox'],
+  input[type='radio'] {
+    .opacity(0)
+  }
+}
+
+.checkbox .inputStatus,
+.checkbox-inline .inputStatus {
+  background: @input-status-checkbox-bg;
+  border: 2px solid @input-status-checkbox-border;
+  border-radius: @input-status-border-radius;
+
+  &:after {
+    left: 7px;
+    top: 3px;
+    border-style: solid;
+    border-color: @input-status-checkbox-color;
+    background: transparent;
+    border-width: 0 2.2px 2.2px 0;
+    width: 6px;
+    height: 11px;
+    //transform: rotate(45deg);
+  }
+}
+
+.radio .inputStatus,
+.radio-inline .inputStatus {
+  background: @input-status-radio-bg;
+  border: 2px solid @input-status-radio-border;
+  border-radius: 50%;
+
+  &:after {
+    left: 2px;
+    top: 2px;
+    width: 9px;
+    height: 9px;
+    background: @input-status-radio-color;
+    border-radius: 50%;
+  }
+}
+
+.radio-inline,
+.checkbox-inline {
+  padding-left: 0;
+}

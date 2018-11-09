@@ -1,0 +1,76 @@
+//
+// Tables
+// --------------------------------------------------
+caption {
+
+    .title {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: #222222;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .footnote {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 2;
+        color: #777777;
+    }
+}
+
+.table {
+
+    > thead,
+    > tbody,
+    > tfoot {
+        > tr {
+            > th,
+            > td {
+                text-align: center;
+                vertical-align: middle;
+                padding: 8px 20px;
+
+                &.text-left {
+                    text-align: left;
+                }
+                &.text-right {
+                    text-align: right;
+                }
+            }
+
+            td + td,
+            th + th,
+            th + td {
+                border-left: 1px solid @table-border-color
+            }
+        }
+    }
+
+    > thead {
+        border-top: 1px solid @brand-primary;
+        > tr {
+            > th,
+            > td {
+                color: @brand-primary;
+                font-weight: normal;
+                border-width: 1px;
+            }
+        }
+    }
+
+    > tbody {
+        border-bottom: 1px solid @table-border-color;
+
+        > tr {
+            > th {
+                font-weight: normal;
+                color: #000;
+            }
+            > td {
+                color: #777;
+            }
+        }
+    }
+}
