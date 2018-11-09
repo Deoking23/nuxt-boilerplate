@@ -2,372 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="607e2a0a-507e-4913-891a-8ade3229098c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.eslintrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/routes/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/align-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/app.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/background.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/border.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/color.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/display.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/document.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/dropdown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/height.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/inner.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/input-search.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/input-status.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/animate.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/background-opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/ellipsis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/font-face.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/list-bar-style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/scrollbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/mixins/thumbnail-size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/notify.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/outer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/preloader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/app/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/reset-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/bootstrap/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/font.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/icon/animation.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/icon/font-icon-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/icon/font-icon-entypo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/icon/font-icon-loading.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/font/icon/icon.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/animation.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/attention_seekers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/bounce.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/flash.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/headShake.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/jello.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/pulse.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/rubberBand.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/shake.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/swing.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/tada.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/attention_seekers/wobble.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/base.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bounceIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bounceInDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bounceInLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bounceInRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bounceInUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_entrances/bouncing_entrances.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bounceOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bounceOutDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bounceOutLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bounceOutRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bounceOutUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/bouncing_exits/bouncing_exits.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/duration.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInDownBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInLeftBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInRightBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fadeInUpBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_entrances/fading_entrances.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutDownBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutLeftBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutRightBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fadeOutUpBig.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/fading_exits/fading_exits.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flipInX.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flipInY.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flipOutX.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flipOutY.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/flippers/flippers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/lightspeed/lightSpeedIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/lightspeed/lightSpeedOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/lightspeed/lightspeed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotateIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotateInDownLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotateInDownRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotateInUpLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotateInUpRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_entrances/rotating_entrances.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotateOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotateOutDownLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotateOutDownRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotateOutUpLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotateOutUpRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/rotating_exits/rotating_exits.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_entrances/slideInDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_entrances/slideInLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_entrances/slideInRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_entrances/slideInUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_entrances/sliding_entrances.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_exits/slideOutDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_exits/slideOutLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_exits/slideOutRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_exits/slideOutUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/sliding_exits/sliding_exits.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/specials/hinge.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/specials/rollIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/specials/rollOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/specials/specials.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zoomIn.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zoomInDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zoomInLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zoomInRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zoomInUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_entrances/zooming_entrances.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zoomOut.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zoomOutDown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zoomOutLeft.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zoomOutRight.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zoomOutUp.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/animation/zooming_exits/zooming_exits.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/aos.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/datepicker/_bootstrap-datetimepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/datepicker/bootstrap-datetimepicker-build.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/fileupload.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/core/element.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/core/iframe.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/core/wrapper.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/froala.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/helpers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/char_counter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/code_view.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/colors.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/draggable.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/emoticons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/file.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/fullscreen.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/help.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/image_manager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/line_breaker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/quick_insert.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/special_characters.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/table.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/plugins/video.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/third_party/spell_checker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/dropdown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/modal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/popup.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/text_edit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/ui/toolbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/froala/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/lib.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/magnific-popup.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/owl.carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/owl.theme.defaults.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/parsleyjs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/perfect-scrollbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/scrollup.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/slick.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/elements.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/all.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/btn-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/dropdown.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/form.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/modal.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/popover.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/toolbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/lite-ui/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote-bs4.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote-bs4.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote-icon.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote-lite.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/summernote/summernote.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/button-loader.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/content.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/icons/error.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/icons/info.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/icons/success.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/icons/warning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/sweetalert.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/sweetalert/text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/lib/vee-validate.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/other/other.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/page/common.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/less/page/page.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/ui/Footer/footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/ui/Footer/index.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/default.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/error.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/locales/en-us.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/locales/ko-kr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/locales/zh-CN.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/middleware/check-auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nuxt.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/index.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/authenticate.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/axios.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/filter.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/localization.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/swiper.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/sample/validate.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/axios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/vee-validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/vue-authenticate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/vue-awesome-swiper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/vue-i18n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro710.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro710.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro720.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro720.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro730.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro730.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro740.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro740.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro750.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro750.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro760.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro760.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro770.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro770.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro780.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro780.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro790.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/YoonGothicPro790.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-ep.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-ep.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-ep.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-ep.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-ep.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-fa.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-fa.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-fa.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-fa.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-fa.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-loading.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-loading.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-loading.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-loading.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/icon-loading.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/modules/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/modules/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/modules/types.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/modules/user.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -378,7 +13,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="filter.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/pages/sample/filter.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="meta.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/meta.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -432,7 +98,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static/robots.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/less/page/common.less" />
         <option value="$PROJECT_DIR$/assets/less/font/font.less" />
         <option value="$PROJECT_DIR$/assets/less/app/variables.less" />
@@ -469,6 +134,9 @@
         <option value="$PROJECT_DIR$/store/modules/user.js" />
         <option value="$PROJECT_DIR$/middleware/check-auth.js" />
         <option value="$PROJECT_DIR$/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/template/pages/sample/filter.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/meta.js" />
       </list>
     </option>
   </component>
@@ -525,6 +193,12 @@
               <item name="aart-nuxt-boilerplate" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="aart-nuxt-boilerplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aart-nuxt-boilerplate" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -540,11 +214,12 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../01.AartProject/orest-shop" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bowom\IdeaProjects\03.AartDev\aart-nuxt-boilerplate\template" />
       <recent name="C:\Users\bowom\IdeaProjects\03.AartDev\aart-nuxt-boilerplate" />
+      <recent name="C:\Users\bowom\IdeaProjects\03.AartDev\aart-nuxt-boilerplate\template" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bowom\IdeaProjects\03.AartDev\aart-nuxt-boilerplate\store\modules" />
@@ -659,15 +334,16 @@
       <option name="presentableId" value="Default" />
       <updated>1541669641722</updated>
       <workItem from="1541669642906" duration="28429000" />
-      <workItem from="1541739596198" duration="3615000" />
+      <workItem from="1541739596198" duration="7583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32044000" />
+    <option name="totallyTimeSpent" value="36012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,10 +354,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50756973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2119522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13155803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20071542" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -708,34 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/less/page/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/page/page.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/app/mixins/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/less/bootstrap/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/less/bootstrap/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1037,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -1080,6 +720,48 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/plugins/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/assets/less/font/icon/font-icon-awesome.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/pages/sample/filter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,20 @@
+# dependencies
+template/node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Backpack build
+build
+/package-lock.json
+/.idea/
+/yarn.lock
+/template/node_modules/
+/template/.nuxt/
+/aart-nuxt-boilerplate.iml
